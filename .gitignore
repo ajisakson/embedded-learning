@@ -1,0 +1,33 @@
+# ---- ESP-IDF ----
+# Generated build output (binaries, ninja files, cmake cache, etc.)
+build/
+
+# Auto-generated project configuration. ESP-IDF regenerates this from
+# sdkconfig.defaults. Commit sdkconfig.defaults instead (see note in README).
+sdkconfig
+sdkconfig.old
+
+# Component manager lock/state
+dependencies.lock
+managed_components/
+
+# ---- Editor / IDE ----
+# Keep .vscode/ if you want to share build tasks & launch configs; otherwise
+# uncomment the next line.
+# .vscode/
+*.code-workspace
+
+# clangd / compile DB
+.cache/
+compile_commands.json
+
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ---- Misc ----
+*.log
+*.tmp
+*.swp
